@@ -46,11 +46,12 @@
 
         <v-app-bar
       app
+      prominent
       color="teal lighten-3"
       dark
       src="https://s2.glbimg.com/gR7AqZNmjOBbdN79GNK6OAPzX2c=/940x523/e.glbimg.com/og/ed/f/original/2019/04/18/rotina.jpg"
     >
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
       <v-toolbar-title>Title</v-toolbar-title>
 
